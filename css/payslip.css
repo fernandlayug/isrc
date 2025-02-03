@@ -1,0 +1,121 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Payslip Container */
+.payslip-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 700px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.title h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* Employee Details */
+.details {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+.details td {
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Salary Breakdown */
+.salary-breakdown {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.salary-breakdown th, .salary-breakdown td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+/* Summary Section */
+.summary {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.summary td {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Net Pay Highlight */
+.net-pay {
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Signature */
+.signature {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Print Button */
+.print-btn {
+    margin-top: 20px;
+    background: #004085;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.print-btn:hover {
+    background: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .payslip-container {
+        width: 100%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payslip - SRC Pampanga</title>
+    <link rel="stylesheet" href="payslip.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+    <!-- Payslip Container -->
+    <div class="payslip-container">
+        <div class="header">
+            <img src="pic/srclogo.png" alt="SRC Pampanga Logo" class="logo">
+            <div class="title">
+                <h2>SANTA RITA COLLEGE OF PAMPANGA</h2>
+                <h3>PAYSLIP</h3>
+            </div>
+        </div>
+
+        <!-- Employee Details -->
+        <table class="details">
+            <tr>
+                <td><strong>ID No.:</strong> 1</td>
+                <td><strong>Name:</strong> Layug, Fernand Torres</td>
+            </tr>
+            <tr>
+                <td><strong>Payslip No.:</strong> IADM-JAN0115-2025</td>
+                <td><strong>Designation:</strong> IT Head</td>
+            </tr>
+            <tr>
+                <td><strong>Status:</strong> Regular</td>
+                <td><strong>Department:</strong> Administration</td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong>Duration Covered:</strong> 1-Jan-25 to 15-Jan-25</td>
+            </tr>
+        </table>
+
+        <!-- Salary Breakdown -->
+        <table class="salary-breakdown">
+            <tr>
+                <th colspan="2">Basic Pay</th>
+                <th colspan="2">Deductions</th>
+            </tr>
+            <tr>
+                <td>Basic Pay:</td>
+                <td>6,340.56</td>
+                <td>Withholding Tax:</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Allowance:</td>
+                <td>0.00</td>
+                <td>SSS Premium:</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Overload:</td>
+                <td>0.00</td>
+                <td>Med. Premium:</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td>Longevity:</td>
+                <td>0.00</td>
+                <td>PERAA Premium:</td>
+                <td>0.00</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>PAGIBIG Premium:</td>
+                <td>0.00</td>
+            </tr>
+        </table>
+
+        <!-- Total & Net Compensation -->
+        <table class="summary">
+            <tr>
+                <td><strong>Gross Pay:</strong> 6,340.56</td>
+                <td><strong>Total Deduction:</strong> 0.00</td>
+                <td><strong>Net Compensation:</strong> <span class="net-pay">6,340.56</span></td>
+            </tr>
+        </table>
+
+        <!-- Employee Signature -->
+        <div class="signature">
+            <p>Employee Signature: _________________________</p>
+        </div>
+
+        <!-- Print Button -->
+        <center>
+            <button class="print-btn" onclick="window.print()">Print Payslip</button>
+        </center>
+    </div>
+
+</body>
+</html>
